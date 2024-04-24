@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Blog</h1>
+        <article>
+            <a href="./0081_Article01">
+                <figure>
+                    <img src="" alt="bannière article">
+                </figure>
+                <h3>A propos des peignes en plastique...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                    adipisci illo veniam non vitae enim!
+                </p>
+            </a>
+        </article>
+        <article>
+            <a href="./0082_Article02">
+                <figure>
+                    <img src="" alt="bannière article">
+                </figure>
+                <h3>Les meilleures tondeuses électriques en 2024</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                    adipisci illo veniam non vitae enim!
+                </p>
+            </a>
+        </article>
+        <article>
+            <a href="./0082_Article02">
+                <figure>
+                    <img src="" alt="bannière article">
+                </figure>
+                <h3>Ecoutez votre barbier!</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                    adipisci illo veniam non vitae enim!
+                </p>
+            </a>
+        </article>
+        <section class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </section>
+    </main>
+  </body>
+</html>
