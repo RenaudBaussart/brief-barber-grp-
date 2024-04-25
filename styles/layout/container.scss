@@ -16,6 +16,11 @@ $container-max-width: iv.$fullhd !default;
     padding-right: iv.$gap;
     width: 100%;
   }
+  &.#{iv.$class-prefix}is-article-header {
+    width: 100%;
+    height: 25%;
+  }
+
 
   @include mx.desktop {
     max-width: iv.$desktop - $container-offset;
