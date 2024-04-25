@@ -5,35 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réservation</title>
-    <link rel="stylesheet" href="../main.scss">
+    <link rel="stylesheet" href="./styles/_index.scss">
 </head>
 
 <body>
     <main>
         <h2>Réservez un créneau</h2>
 
-        <section class="semaine">
-            <ul>
+        <section class="fixed-grid has-1-cols">
+            <ul class="cell">
                 <li class="prev">&#10094;</li>
                 <li class="next">&#10095;</li>
                 <li>22-28<br>Avril 2024</li>
             </ul>
-            <ul class="jours">
-                <li>Lundi 22</li>
-                <li>Mardi 23</li>
-                <li>Mercredi 24</li>
-                <li>Jeudi 25</li>
-                <li>Vendredi 26</li>
+            <ul class="columns column-gap-4">
+                <li class="column">Lundi 22</li>
+                <ul class="fixed-grid has-1-cols">
+                    <li class="cell">10h</li>
+                    <li class="cell">11h</li>
+                    <li class="cell">14h</li>
+                    <li class="cell">15h</li>
+                    <li class="cell">16h</li>
+                    <li class="cell">17h</li>
+                    <li class="cell">18h</li>
+                </ul>
+                <li class="column">Mardi 23</li>
+                <ul class="fixed-grid has-1-cols">
+                    <li class="cell">10h</li>
+                    <li class="cell">11h</li>
+                    <li class="cell">14h</li>
+                    <li class="cell">15h</li>
+                    <li class="cell">16h</li>
+                    <li class="cell">17h</li>
+                    <li class="cell">18h</li>
+                </ul>
+                <li class="column">Mercredi 24</li>
+                <ul class="fixed-grid has-1-cols">
+                    <li class="cell">10h</li>
+                    <li class="cell">11h</li>
+                    <li class="cell">14h</li>
+                    <li class="cell">15h</li>
+                    <li class="cell">16h</li>
+                    <li class="cell">17h</li>
+                    <li class="cell">18h</li>
+                </ul>
+                <li class="column">Jeudi 25</li>
+                <ul class="fixed-grid has-1-cols">
+                    <li class="cell">10h</li>
+                    <li class="cell">11h</li>
+                    <li class="cell">14h</li>
+                    <li class="cell">15h</li>
+                    <li class="cell">16h</li>
+                    <li class="cell">17h</li>
+                    <li class="cell">18h</li>
+                </ul>
+                <li class="column">Vendredi 26</li>
+                <ul class="fixed-grid has-1-cols">
+                    <li class="cell">10h</li>
+                    <li class="cell">11h</li>
+                    <li class="cell">14h</li>
+                    <li class="cell">15h</li>
+                    <li class="cell">16h</li>
+                    <li class="cell">17h</li>
+                    <li class="cell">18h</li>
+                </ul>
             </ul>
-            <ul class="creneau">
-                <li>10h</li>
-                <li>11h</li>
-                <li>14h</li>
-                <li>15h</li>
-                <li>16h</li>
-                <li>17h</li>
-                <li>18h</li>
-            </ul>
+            
         </section>
     </main>
 </body>
