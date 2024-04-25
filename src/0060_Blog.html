@@ -5,51 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="../styles/_index.scss">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-    <main>
+    <main class="mr-6">
         <h1>Blog</h1>
-        <article class="content">
-            <a href="./0061_Article01">
-                <figure>
-                    <img src="../res/0060_Blog/0010_Peigne.jpg" alt="bannière article" class="image is-fullwidth">
-                </figure>
-                <h3>A propos des peignes en plastique...</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
-        <article class="content">
-            <a href="./0062_Article02">
-                <figure>
-                    <img src="../res/0060_Blog/0020_tondeuse.webp" alt="bannière article" class="image is-fullwidth">
-                </figure>
-                <h3>Les meilleures tondeuses électriques en 2024</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
-        <article class="content">
-            <a href="./0063_Article03">
-                <figure>
-                    <img src="../res/0060_Blog/0030_barbier.jpg" alt="bannière article" class="image is-fullwidth">
-                </figure>
-                <h3>Ecoutez votre barbier!</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
+        <section class="columns">
+            <section class="column is-three-fourth">
+                <article class="section is-medium">
+                    <a href="./0061_Article01">
+                        <figure class="image is-3by1">
+                            <img src="../res/0060_Blog/0010_Peigne.jpg" alt="bannière article" class="bannerImage">
+                        </figure>
+                        <h3>A propos des peignes en plastique...</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                            nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                            adipisci illo veniam non vitae enim!
+                        </p>
+                    </a>
+                </article>
+                <article class="section is-medium mr-6">
+                    <a href="./0062_Article02">
+                        <figure class="image is-3by1">
+                            <img src="../res/0060_Blog/0020_tondeuse.webp" alt="bannière article">
+                        </figure>
+                        <h3>Les meilleures tondeuses électriques en 2024</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                            nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                            adipisci illo veniam non vitae enim!
+                        </p>
+                    </a>
+                </article>
+                <article class="section is-medium mr-6">
+                    <a href="./0063_Article03">
+                        <figure class="image is-3by1">
+                            <img src="../res/0060_Blog/0030_barbier.jpg" alt="bannière article"
+                                class="image is-fullwidth">
+                        </figure>
+                        <h3>Ecoutez votre barbier!</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                            nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                            adipisci illo veniam non vitae enim!
+                        </p>
+                    </a>
+                </article>
+            </section>
+            
+        </section>
+
         <nav class="pagination is-centered" role="navigation">
             <a href="#" class="pagination-previous">&laquo;</a>
             <ul class="pagination-list">
