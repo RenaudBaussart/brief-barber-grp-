@@ -21,6 +21,10 @@ $dimensions: 16 24 32 48 64 96 128 256 !default;
   &.#{iv.$class-prefix}is-fullwidth {
     width: 100%;
   }
+  &.#{iv.$class-prefix}is-banner {
+    width: 100%;
+    object-fit: cover;
+  }
 
   // Ratio
   &.#{iv.$class-prefix}is-square {
