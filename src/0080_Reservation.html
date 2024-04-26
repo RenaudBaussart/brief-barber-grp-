@@ -5,35 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réservation</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
     <main>
-        <h2>Réservez un créneau</h2>
+        <h2 class="title m-6">Réservez un créneau</h2>
 
-        <section class="semaine">
-            <ul>
-                <li class="prev">&#10094;</li>
-                <li class="next">&#10095;</li>
-                <li>22-28<br>Avril 2024</li>
-            </ul>
-            <ul class="jours">
-                <li>Lundi 22</li>
-                <li>Mardi 23</li>
-                <li>Mercredi 24</li>
-                <li>Jeudi 25</li>
-                <li>Vendredi 26</li>
-            </ul>
-            <ul class="creneau">
-                <li>10h</li>
-                <li>11h</li>
-                <li>14h</li>
-                <li>15h</li>
-                <li>16h</li>
-                <li>17h</li>
-                <li>18h</li>
-            </ul>
+        <section class="column has-2-cols has-text-centered">
+            <section class="column is-three-quarters">
+                <section class="fixed-grid has-1-cols m-6 px-6">
+                    <ul class="cell is-flex is-justify-content-space-evenly py-6 has-background-grey-darker has-text-white-ter">
+                        <li class="is-size-3"><a>&#10094;</a></li>
+                        <li>
+                            <p>Avril 2024</p>
+                            <p class="is-size-3">22-28</p>
+                        </li>
+                        <li class="is-size-3"><a>&#10095;</a></li>
+                    </ul>
+                    <ul class="columns pt-3 is-gapless">
+                        <li class="column">
+                            <p class="pb-3 is-size-4">Lundi 22</p>
+                            <ul class="fixed-grid has-1-cols is-size-4">
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>10h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey pb-2"><a>11h</a></li>
+                                <li class="cell has-background-danger has-text-grey-lighter">14h</li>
+                                <li class="cell has-background-danger has-text-grey-lighter">15h</li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>16h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>17h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>18h</a></li>
+                            </ul>
+                        </li>
+                        <li class="column">
+                            <p class="pb-3 is-size-4">Mardi 23</p>
+                            <ul class="fixed-grid has-1-cols is-size-4">
+                                <li class="cell has-background-black has-text-grey-lighter"><a>10h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter pb-2"><a>11h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>14h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>15h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>16h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>17h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>18h</a></li>
+                            </ul>
+                        </li>
+                        <li class="column">
+                            <p class="pb-3 is-size-4">Mercredi 24</p>
+                            <ul class="fixed-grid has-1-cols is-size-4">
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>10h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey pb-2"><a>11h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>14h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>15h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>16h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>17h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>18h</a></li>
+                            </ul>
+                        </li>
+                        <li class="column">
+                            <p class="pb-3 is-size-4">Jeudi 25</p>
+                            <ul class="fixed-grid has-1-cols is-size-4">
+                                <li class="cell has-background-black has-text-grey-lighter"><a>10h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter pb-2"><a>11h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>14h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>15h</a></li>
+                                <li class="cell has-background-danger-dark has-text-grey-lighter">16h</li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>17h</a></li>
+                                <li class="cell has-background-black has-text-grey-lighter"><a>18h</a></li>
+                            </ul>
+                        </li>
+                        <li class="column">
+                            <p class="pb-3 is-size-4">Vendredi 26</p>
+                            <ul class="fixed-grid has-1-cols is-size-4">
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>10h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey pb-2"><a>11h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>14h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>15h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>16h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>17h</a></li>
+                                <li class="cell has-background-grey-lighter has-text-grey"><a>18h</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="column">
+
+                </section>
+            </section>
         </section>
     </main>
 </body>

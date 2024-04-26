@@ -1,63 +1,113 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <main>
-        <h1>Blog</h1>
-        <article>
-            <a href="./0061_Article01">
-                <figure>
-                    <img src="" alt="bannière article">
-                </figure>
-                <h3>A propos des peignes en plastique...</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
-        <article>
-            <a href="./0062_Article02">
-                <figure>
-                    <img src="" alt="bannière article">
-                </figure>
-                <h3>Les meilleures tondeuses électriques en 2024</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
-        <article>
-            <a href="./0062_Article02">
-                <figure>
-                    <img src="" alt="bannière article">
-                </figure>
-                <h3>Ecoutez votre barbier!</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
-                    nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
-                    adipisci illo veniam non vitae enim!
-                </p>
-            </a>
-        </article>
-        <section class="pagination">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">&raquo;</a>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <main class="mr-6">
+        <section class="m-6">
+            <h1 class="title">Blog</h1>
+            <h2 class="subtitle">Vos barbiers ont des choses à dire...</h2>
         </section>
+        <section class="columns">
+            <section class="column is-three-quarters">
+                <article  class="section">
+
+                    <p class="is-size-7">
+                        18/04/2024
+                    </p>
+                    
+                        <a href="./0061_Article01.html">
+                            <figure class="image is-banner">
+                                <img src="../res/0060_Blog/0010_Peigne.jpg" alt="bannière article">
+                            </figure>
+                        </a>
+                    
+                    <h3 class="is-size-3">A propos des peignes en plastique...</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                        nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                        adipisci illo veniam non vitae enim!
+                    </p>
+
+                </article>
+                <article class="section">
+
+                    <p class="is-size-7">
+                        12/04/2024
+                    </p>
+                    
+                        <a href="./0062_Article02.html">
+                            <figure class="image is-banner">
+                                <img src="../res/0060_Blog/0020_tondeuse.webp" alt="bannière article">
+                            </figure>
+                        </a>
+                    
+                    <h3 class="is-size-3">Les meilleures tondeuses électriques en 2024</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                        nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                        adipisci illo veniam non vitae enim!
+                    </p>
+
+                </article>
+                <article class="section">
+
+                    <p class="is-size-7">
+                        02/04/2024
+                    </p>
+                        <a href="./0063_Article03.html">
+                            <figure class="image is-banner">
+                                <img src="../res/0060_Blog/0030_barbier.jpg" alt="bannière article"
+                                    class="image is-fullwidth">
+                            </figure>
+                        </a>
+                    <h3 class="is-size-3">Ecoutez votre barbier!</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
+                        nihil, excepturi voluptatibus repellendus ipsa eveniet vero accusamus nam consectetur animi
+                        adipisci illo veniam non vitae enim!
+                    </p>
+
+                </article>
+            </section>
+            <section class="column">
+                <aside class="menu">
+                    <h5 class="menu-label">Historique des articles</h5>
+                    <li><a class="is-active">2024</a>
+                        <ul class="menu-list">
+                            <li><a>Avril</a></li>
+                            <li><a>Mars</a></li>
+                            <li><a>Février</a></li>
+                            <li><a>Janvier</a></li>
+                        </ul>
+                    </li>
+                    <li><a>2023</a></li>
+                    <li><a>2023</a></li>
+                </aside>
+            </section>
+        </section>
+
+        <nav class="pagination is-centered" role="navigation">
+            <a href="#" class="pagination-previous">&laquo;</a>
+            <ul class="pagination-list">
+                <li href="#" class="pagination-link">1</li>
+                <li href="#" class="pagination-link">2</li>
+                <li href="#" class="pagination-link">3</li>
+                <li href="#" class="pagination-link">4</li>
+                <li href="#" class="pagination-ellipsis">&hellip;</li>
+                <li href="#" class="pagination-link">26</li>
+            </ul>
+            <a href="#" class="pagination-next">&raquo;</a>
+        </nav>
     </main>
-  </body>
+</body>
+
 </html>
