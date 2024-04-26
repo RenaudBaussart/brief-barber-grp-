@@ -24,6 +24,7 @@ $dimensions: 16 24 32 48 64 96 128 256 !default;
   &.#{iv.$class-prefix}is-banner {
     width: 100%;
     object-fit: cover;
+    border-radius: cv.getVar("radius-small");
   }
 
   // Ratio

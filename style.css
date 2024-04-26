@@ -4252,6 +4252,7 @@ div.icon-text {
 .image.is-banner {
   width: 100%;
   object-fit: cover;
+  border-radius: var(--bulma-radius-small);
 }
 .image.is-square img,
 .image.is-square .has-ratio {
