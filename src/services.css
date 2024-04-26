@@ -1,0 +1,22 @@
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item {
+    width: 10em;
+  }
+
+  bg-color-brown
+  
+  <div class="container">
+  <div class="item">I am centered!</div>
+</div>
