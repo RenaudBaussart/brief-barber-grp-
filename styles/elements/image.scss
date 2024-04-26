@@ -24,6 +24,7 @@ $dimensions: 16 24 32 48 64 96 128 256 !default;
   &.#{iv.$class-prefix}is-banner {
     width: 100%;
     object-fit: cover;
+    border-radius: cv.getVar("radius-small");
   }
 
   // Ratio
@@ -61,6 +62,21 @@ $dimensions: 16 24 32 48 64 96 128 256 !default;
     &.#{iv.$class-prefix}is-#{$dimension}x#{$dimension} {
       height: $dimension * 1px;
       width: $dimension * 1px;
+    }
+  }
+}
+
+article .is-banner-link {
+  height: 700px;
+
+  img {
+    display: block;
+    position: relative;
+    border-radius: cv.getVar("radius-small");
+
+    &.#{iv.$class-prefix}is-banner {
+      width: 100%;
+      object-fit: cover !important;
     }
   }
 }
