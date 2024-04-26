@@ -4493,6 +4493,14 @@ div.icon-text {
   height: 256px;
   width: 256px;
 }
+.image.is-300x300 {
+  height: 300px;
+  width: 300px;
+}
+.image.is-512x512 {
+  height: 512px;
+  width: 512px;
+}
 
 .loader {
   animation: spinAround 500ms infinite linear;
@@ -22470,6 +22478,11 @@ header.bg-color-dark {
 .bg-color-brown {
   background-color: rgb(163, 111, 58);
 }
+.bg-color-brown button {
+  color: white;
+  background-color: rgb(217, 165, 32);
+  border: solid black 1px;
+}
 
 .padding-margin {
   margin-top: 100px;
@@ -22504,6 +22517,26 @@ article.color-gold h3 {
 }
 article.color-gold p {
   color: goldenrod;
+}
+
+div.cont-main-shop {
+  display: grid;
+  grid-template-columns: 15% repeat(3, 1fr) 15%;
+  grid-template-rows: 15% 1fr 1fr;
+  gap: 0%;
+}
+div.cont-main-shop .shop-item {
+  align-items: center;
+  justify-items: center;
+}
+div.cont-main-shop .shop-item figure {
+  border: solid black 1px;
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+}
+div.cont-main-shop .shop-item p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
