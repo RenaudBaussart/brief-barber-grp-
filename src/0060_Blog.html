@@ -8,26 +8,48 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 
-<body>
-    <main class="mr-6">
-        <section class="m-6">
-            <h1 class="title">Blog</h1>
+<body class="">
+
+    <nav class="navbar is-fixed-top bg-color-dark is-justify-content-center" role="navigation">
+
+        <section class="level-item has-text-centered">
+            <a href="../index.html" class="link is-info "><button class="button is-outlined is-wide mx-1">Accueil</button></a>
+            <a href="../src/0020_equipe.html" class="link is-info"><button class="button is-outlined is-wide mx-1">Notre equipe</button></a>
+            <a href="../src/0030_Shop" class="link is-info"><button class="button is-outlined is-wide mx-1">Service</button></a>
+            <a href="../src/0040_Shop.html" class="link is-info"><button class="button is-outlined is-wide">Shop</button></a>
+        </section>
+
+        <figure class="level-item has-text-centered image is-128x128 mx-3">
+            <img src="../res/0010_Accueil/logo-barber-removedbg.png" alt="logo-barbershop" class="is-rounded"/>
+        </figure>
+
+        <section class="level-item has-text-centered">
+            <a href="../src/0050_galerie.html" class="link is-info"><button class="button is-outlined is-wide">Gallerie</button></a>
+            <a href="../src/0060_Blog.html" class="link is-info"><button class="button is-outlined is-wide mx-1" disabled >Blog</button></a>
+            <a href="../src/0070_Contact.html" class="link is-info"><button class="button is-outlined is-wide mx-1">Contact</button></a>
+            <a href="../src/0080_Reservation.html" class="link is-info"><button class="button is-outlined is-wide mx-1">Reservation</button></a>
+        </section>
+    </nav>
+
+    <main class="mt-6 pt-6">
+        <section class="m-6 pt-6">
+            <h1 class="title mt-6">Blog</h1>
             <h2 class="subtitle">Vos barbiers ont des choses à dire...</h2>
         </section>
         <section class="columns">
-            <section class="column is-three-quarters">
-                <article class="section has-radius-small">
+            <section class="column is-three-quarters has-background-white">
+                <article class="section has-background-grey-light has-text-primary-dark has-radius-small">
 
-                    <p class="is-size-7">
+                    <p class="is-size-6 mb-2 has-text-right">
                         18/04/2024
                     </p>
-                    
-                        <a href="./0061_Article01.html" class="is-banner-link">
-                            <figure class="image is-banner">
-                                <img src="../res/0060_Blog/0010_peigne.webp" alt="bannière article">
-                            </figure>
-                        </a>
-                    
+
+                    <a href="./0061_Article01.html" class="is-banner-link">
+                        <figure class="image is-banner mb-5">
+                            <img src="../res/0060_Blog/0010_peigne.webp" alt="bannière article">
+                        </figure>
+                    </a>
+
                     <h3 class="is-size-3">A propos des peignes en plastique...</h3>
 
                     <p>
@@ -37,18 +59,18 @@
                     </p>
 
                 </article>
-                <article class="section has-background-grey-darker has-text-grey-light has-radius-small">
+                <article class="section has-background-grey-darker has-text-link has-radius-small">
 
-                    <p class="is-size-7">
+                    <p class="is-size-6 mb-2 has-text-right">
                         12/04/2024
                     </p>
-                    
-                        <a href="./0062_Article02.html" class="is-banner-link">
-                            <figure class="image is-banner">
-                                <img src="../res/0060_Blog/0020_tondeuse.webp" alt="bannière article">
-                            </figure>
-                        </a>
-                    
+
+                    <a href="./0062_Article02.html" class="is-banner-link">
+                        <figure class="image is-banner mb-5">
+                            <img src="../res/0060_Blog/0020_tondeuse.webp" alt="bannière article">
+                        </figure>
+                    </a>
+
                     <h3 class="is-size-3">Les meilleures tondeuses électriques en 2024</h3>
 
                     <p>
@@ -58,17 +80,16 @@
                     </p>
 
                 </article>
-                <article class="section has-radius-small">
+                <article class="section has-background-primary has-text-white has-radius-small">
 
-                    <p class="is-size-7">
+                    <p class="is-size-6 mb-2 has-text-right">
                         02/04/2024
                     </p>
-                        <a href="./0063_Article03.html" class="is-banner-link">
-                            <figure class="image is-banner">
-                                <img src="../res/0060_Blog/0030_barbier.jpg" alt="bannière article"
-                                    class="image is-fullwidth">
-                            </figure>
-                        </a>
+                    <a href="./0063_Article03.html" class="is-banner-link">
+                        <figure class="image is-banner mb-5">
+                            <img src="../res/0060_Blog/0030_barbier.jpg" alt="bannière article">
+                        </figure>
+                    </a>
                     <h3 class="is-size-3">Ecoutez votre barbier!</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, placeat aut dolorem nobis
@@ -78,8 +99,8 @@
 
                 </article>
             </section>
-            <section class="column">
-                <aside class="menu has-text-left">
+            <section class="column has-background-white ml-3">
+                <aside class="menu has-text-left px-6">
                     <h5 class="menu-label">Historique des articles</h5>
                     <li><a class="is-active">2024</a>
                         <ul class="menu-list">
@@ -95,18 +116,24 @@
             </section>
         </section>
 
-        <nav class="pagination is-centered" role="navigation">
-            <a href="#" class="pagination-previous">&laquo;</a>
-            <ul class="pagination-list">
-                <li href="#" class="pagination-link">1</li>
-                <li href="#" class="pagination-link">2</li>
-                <li href="#" class="pagination-link">3</li>
-                <li href="#" class="pagination-link">4</li>
-                <li href="#" class="pagination-ellipsis">&hellip;</li>
-                <li href="#" class="pagination-link">26</li>
-            </ul>
-            <a href="#" class="pagination-next">&raquo;</a>
-        </nav>
+        <section class="columns has-5-cols">
+            <section class="column"></section>
+            <section class="column is-one-fifths">
+                <nav class="pagination is-centered p-6" role="navigation">
+                    <a href="#" class="pagination-previous">&laquo;</a>
+                    <ul class="pagination-list">
+                        <li href="#" class="pagination-link" disabled>1</li>
+                        <li href="#" class="pagination-link">2</li>
+                        <li href="#" class="pagination-link">3</li>
+                        <li href="#" class="pagination-link">4</li>
+                        <li href="#" class="pagination-ellipsis">&hellip;</li>
+                        <li href="#" class="pagination-link">26</li>
+                    </ul>
+                    <a href="#" class="pagination-next">&raquo;</a>
+                </nav>
+            </section>
+            <section class="column"></section>
+        </section>
     </main>
 </body>
 
