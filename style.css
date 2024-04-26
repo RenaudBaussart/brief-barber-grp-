@@ -22529,4 +22529,8 @@ article.color-gold p {
   border-radius: 5% !important;
 }
 
+.button.is-wide {
+  width: 130px;
+}
+
 /*# sourceMappingURL=style.css.map */
