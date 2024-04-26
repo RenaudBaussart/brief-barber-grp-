@@ -22525,18 +22525,16 @@ div.cont-main-shop {
   grid-template-rows: 15% 1fr 1fr;
   gap: 0%;
 }
-div.cont-main-shop .shop-item {
-  align-items: center;
-  justify-items: center;
+div.cont-main-shop .button {
+  border: 0;
+  margin-right: -2px;
+  margin-bottom: -2px;
 }
-div.cont-main-shop .shop-item figure {
-  border: solid black 1px;
-  border-radius: 10%;
-  height: 300px;
-  width: 300px;
+div.cont-main-shop .card {
+  background-color: rgb(235, 234, 234);
 }
-div.cont-main-shop .shop-item p {
-  text-align: center;
+div.cont-main-shop .card-footer {
+  border-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
