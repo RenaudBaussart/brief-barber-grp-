@@ -4252,6 +4252,7 @@ div.icon-text {
 .image.is-banner {
   width: 100%;
   object-fit: cover;
+  border-radius: var(--bulma-radius-small);
 }
 .image.is-square img,
 .image.is-square .has-ratio {
@@ -4492,6 +4493,27 @@ div.icon-text {
 .image.is-256x256 {
   height: 256px;
   width: 256px;
+}
+.image.is-300x300 {
+  height: 300px;
+  width: 300px;
+}
+.image.is-512x512 {
+  height: 512px;
+  width: 512px;
+}
+
+article .is-banner-link {
+  height: 700px;
+}
+article .is-banner-link img {
+  display: block;
+  position: relative;
+  border-radius: var(--bulma-radius-small);
+}
+article .is-banner-link img.is-banner {
+  width: 100%;
+  object-fit: cover !important;
 }
 
 .loader {
@@ -22470,12 +22492,17 @@ header.bg-color-dark {
 .bg-color-brown {
   background-color: rgb(163, 111, 58);
 }
+.bg-color-brown button {
+  color: white;
+  background-color: rgb(217, 165, 32);
+  border: solid black 1px;
+}
 
 .padding-margin {
-  margin-top: 125px;
+  margin-top: 100px;
   margin-bottom: 0%;
-  padding-bottom: 200px;
-  padding-top: 200px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 section.cont-presentation-index {
@@ -22494,7 +22521,9 @@ article.cont-presentation-description-index {
 
 article.color-gold {
   background-color: rgb(163, 111, 58);
-  padding-bottom: -20px;
+  padding-bottom: -30px;
+  border: solid goldenrod;
+  border-radius: 10%;
 }
 article.color-gold h3 {
   color: goldenrod;
@@ -22502,6 +22531,39 @@ article.color-gold h3 {
 }
 article.color-gold p {
   color: goldenrod;
+}
+
+div.cont-main-shop {
+  display: grid;
+  grid-template-columns: 15% repeat(3, 1fr) 15%;
+  grid-template-rows: 15% 1fr 1fr;
+  gap: 0%;
+}
+div.cont-main-shop .button {
+  border: 0;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+div.cont-main-shop .card {
+  background-color: rgb(235, 234, 234);
+}
+div.cont-main-shop .card-footer {
+  border-color: black;
+}
+
+.is-banner-link {
+  height: 700px !important;
+  width: 100%;
+}
+
+.is-banner {
+  width: 100%;
+  object-fit: cover !important;
+  border-radius: 5% !important;
+}
+
+.button.is-wide {
+  width: 130px;
 }
 
 /*# sourceMappingURL=style.css.map */
