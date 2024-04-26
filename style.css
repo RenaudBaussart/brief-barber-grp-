@@ -4495,6 +4495,19 @@ div.icon-text {
   width: 256px;
 }
 
+article .is-banner-link {
+  height: 700px;
+}
+article .is-banner-link img {
+  display: block;
+  position: relative;
+  border-radius: var(--bulma-radius-small);
+}
+article .is-banner-link img.is-banner {
+  width: 100%;
+  object-fit: cover !important;
+}
+
 .loader {
   animation: spinAround 500ms infinite linear;
   border: 2px solid var(--bulma-border);
@@ -22503,6 +22516,17 @@ article.color-gold h3 {
 }
 article.color-gold p {
   color: goldenrod;
+}
+
+.is-banner-link {
+  height: 700px !important;
+  width: 100%;
+}
+
+.is-banner {
+  width: 100%;
+  object-fit: cover !important;
+  border-radius: 5% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
