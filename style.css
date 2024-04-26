@@ -4252,6 +4252,7 @@ div.icon-text {
 .image.is-banner {
   width: 100%;
   object-fit: cover;
+  border-radius: var(--bulma-radius-small);
 }
 .image.is-square img,
 .image.is-square .has-ratio {
@@ -4492,6 +4493,19 @@ div.icon-text {
 .image.is-256x256 {
   height: 256px;
   width: 256px;
+}
+
+article .is-banner-link {
+  height: 700px;
+}
+article .is-banner-link img {
+  display: block;
+  position: relative;
+  border-radius: var(--bulma-radius-small);
+}
+article .is-banner-link img.is-banner {
+  width: 100%;
+  object-fit: cover !important;
 }
 
 .loader {
@@ -22502,6 +22516,17 @@ article.color-gold h3 {
 }
 article.color-gold p {
   color: goldenrod;
+}
+
+.is-banner-link {
+  height: 700px !important;
+  width: 100%;
+}
+
+.is-banner {
+  width: 100%;
+  object-fit: cover !important;
+  border-radius: 5% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
