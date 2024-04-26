@@ -32,3 +32,27 @@ header.bg-color-dark{
         padding-top:200px;
 }
 
+section.cont-presentation-index{
+    display: grid;
+    grid-template-columns: 50px repeat(3,1fr) 50px;
+    grid-template-rows: 1fr;
+    gap: 0%;
+}
+article.cont-presentation-description-index{
+  display: grid;
+  grid-template-columns: 50px repeat(3,1fr) 50px;
+  grid-template-rows: repeat(3,1fr);
+  gap: 0%;
+}
+article.color-gold{
+  background-color: rgb(163, 111, 58);
+  padding-bottom: -20px;
+  h3{
+    color:goldenrod;
+    font-size: larger;
+  }
+  p{
+    color:goldenrod;
+  }
+}
+
