@@ -31,12 +31,12 @@
 ## checklist
 <details>
 
-- [ ] Accueil <br>
-    - [ ] HTML <br>
-        -[ ] header <br>
-        -[ ] body <br>
-        -[ ] nav <br>
-        -[ ] footer <br>
+- [x] Accueil <br>
+    - [x] HTML <br>
+        -[x] header <br>
+        -[x] body <br>
+        -[x] nav <br>
+        -[x] footer <br>
 - [ ] Notre équipe <br>
     - [ ] HTML <br>
         -[ ] header <br>
@@ -49,12 +49,12 @@
         -[ ] body <br>
         -[ ] nav <br>
         -[ ] footer <br>
-- [ ] Shop <br>
-    - [ ] HTML <br>
-        -[ ] header <br>
-        -[ ] body <br>
-        -[ ] nav <br>
-        -[ ] footer <br>
+- [x] Shop <br>
+    - [x] HTML <br>
+        -[x] header <br>
+        -[x] body <br>
+        -[x] nav <br>
+        -[x] footer <br>
 - [ ] Gallerie <br>
     - [ ] HTML <br>
         -[ ] header <br>
