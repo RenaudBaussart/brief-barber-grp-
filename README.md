@@ -79,15 +79,6 @@
         -[ ] body <br>
         -[ ] nav <br>
         -[ ] footer <br>
-- [ ] CSS<br>
-    - [ ] SCSS <br>
-        -[ ]base <br>
-        -[ ]components <br>
-        -[ ]layout <br>
-        -[ ]pages <br>
-        -[ ]themes <br>
-        -[ ]abstract <br>
-        -[ ]vendors <br>
 
 </details>
 
