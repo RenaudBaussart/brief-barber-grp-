@@ -16,7 +16,7 @@
 ---
 
 ### About The Project
-
+for this project we have the instruction to make a website that is a Storefront for a barbershop
 ---
 
 ### Built With
