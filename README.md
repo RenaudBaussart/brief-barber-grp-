@@ -70,6 +70,10 @@ for this project we have the instruction to make a website that is a Storefront 
 </details>
 
 ## Author
+[Shanaz](https://github.com/MikkoPet) <br>
+[Arthur](https://github.com/Achap05) <br>
+[Fethi](https://github.com/Fethi62000) <br>
+[Renaud](https://github.com/RenaudBaussart) <br>
 
 ## License
 
