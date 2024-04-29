@@ -15,8 +15,8 @@ Infos shop, carte de l'offre, résas
 ## Charte graphique 
 ### Style:
 #### Design:
-MODERNE, qui CLAQUE, Classe  
-Une touche barbershop tradi? Ou full MODERNE?
+MODERNE avec une touche de traditionnel, qui CLAQUE, Classe  
+
 sent le cuir et la crême et le cigare
 
 ##### Palette couleurs:
